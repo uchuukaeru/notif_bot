@@ -36,14 +36,40 @@ bot本体<br>
 ログファイルの操作に関する関数群<br>
 #### メインとして動作させた場合の挙動
 なし<br>
+#### 関数一覧
+output_log
+replace_in_list
+log_match
+serious_error
+
 ### notif.py
 webスクレイピングと通知に関する関数群<br>
 #### メインとして動作させた場合の挙動
 最新の配信の情報を取得しターミナルに出力する。この際、ログファイルには出力されない<br>
+#### 関数一覧
+connect_test
+sq
+get_Livelist
+get_name_dy
+html_del_tags
+make_link
+input_USERLIST
+get_USERLIST
+notif
+
 ### command.py
 コマンド関連の処理に関する関数群<br>
 #### メインとして動作させた場合の挙動
 コマンドの動作テストを行える。この際、ログファイルには出力されない。<br>
+#### 関数一覧
+sort_COMMAND
+input_COMMAND
+List_com
+Help_com
+Readme_com
+funcselect
+typeselect
+
 ### command.json
 botで対応するコマンドを記述するjsonファイル<br>
 #### 記述例<br>
